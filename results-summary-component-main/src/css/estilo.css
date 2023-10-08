@@ -1,0 +1,46 @@
+body {
+    font-weight: 500;
+    background-color: var(--branco);
+    height: 100vh; 
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+
+.container .card {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .card .container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    background-color: var(--luz--lavande);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
