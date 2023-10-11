@@ -21,9 +21,52 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 400px;
     width: 300px;
-    background-color: var(--luz--lavande);
+    border-radius: 12px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), 40%, hsl(241, 81%, 54%) 90%);
+}
+
+.container .card .container-principal .texto {
+    color: var( --paleo-azul);
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
+    
+}
+
+.container .card .container-principal .conteudo-central {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), 60%,  hsla(241, 72%, 46%, 0) 90%);
+}
+
+.container .card .container-principal .conteudo-central .logo-central {
+    font-size: 36px;
+    color:var(--paleo-azul);
+}
+
+.container .card .container-principal .conteudo-central .logo-secundaria {
+    color: var(--luz--lavande);
+    opacity: calc(0.5);
+}
+
+.container .card .container-principal  .conteudo-texto {
+    color: var(--paleo-azul);
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+.container .card .container-principal .conteudo-frase {
+    color: var(--luz--lavande);
+    opacity: calc(1);
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    font-size: var(--fonte-padrao);
 }
 
 
@@ -34,13 +77,12 @@ body {
 
 
 
-
-
-/* .attribution {
+ 
+ .attribution {
     font-size: 11px;
     text-align: center;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-} */
+} 
