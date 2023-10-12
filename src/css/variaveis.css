@@ -2,10 +2,10 @@
     --paleo-branco : hsl(0, 0%, 100%);
     --paleo-azul : hsl(221, 100%, 96%);
     --luz--lavande: hsl(241, 100%, 89%);
-    --escuro-cinza-azul : hsl(224, 30%, 27%);
-    --luz-azul-transparente:  hsl(252, 100%, 67%);
-    --luz-azul-real:  hsl(241, 81%, 54%);
-    --azul-violeta: hsla(256, 72%, 46%, 1);
     --azul-persia:  hsla(241, 72%, 46%, 0);
+    --luz-red: hsl(0, 100%, 67%);
+    --laranja-amarelo: hsl(39, 100%, 56%);
+    --verde-vivo : hsl(166, 100%, 37%);
+    --violeta-azul: hsl(234, 85%, 45%);
     --fonte-padrao: 18px;
 }

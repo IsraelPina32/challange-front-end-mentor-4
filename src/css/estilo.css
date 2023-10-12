@@ -1,7 +1,7 @@
 body {
     font-weight: 500;
     background-color: var(--branco);
-    height: 100vh; 
+    height: 100vh;
 }
 
 .container {
@@ -21,9 +21,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+    left: 30px;
     height: 400px;
     width: 300px;
-    border-radius: 12px;
+    border-radius: 25px;
     background-image: linear-gradient(hsl(252, 100%, 67%), 40%, hsl(241, 81%, 54%) 90%);
 }
 
@@ -38,13 +40,14 @@ body {
 .container .card .container-principal .conteudo-central {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 50px 60px 50px 60px;
     border-radius: 50%;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), 60%,  hsla(241, 72%, 46%, 0) 90%);
 }
 
 .container .card .container-principal .conteudo-central .logo-central {
-    font-size: 36px;
+    font-size: 50px;
+    font-weight: 700;
     color:var(--paleo-azul);
 }
 
@@ -67,6 +70,72 @@ body {
     margin: 10px;
     text-align: center;
     font-size: var(--fonte-padrao);
+}
+
+.container .card .container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--paleo-branco);
+    border-radius: 25px;
+    box-shadow: 0.4em  0.4em 1em  -0.2em hsl(241, 100%, 89%);
+    height: 400px;
+    width: 350px;
+}
+
+.container .card .container-info .texto-secundario {
+    font-size: 20px;
+    color: var(--escuro-cinza-azul);
+    padding: 15px;
+    margin: 8px;
+}
+
+.container .card .container-info .lista {
+    padding: 10px;
+    opacity: calc(0.5);
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.container .card .container-info .lista .lista-vermelho {
+    background-color: var(--luz-red);
+    /* color: var(--luz-red); */
+}
+
+.container .card .container-info .lista .lista-amarelo {
+    background-color: var(--laranja-amarelo);
+    /* color: var(--laranja-amarelo); */
+}
+
+.container .card .container-info .lista .lista-verde {
+    background-color: var(--verde-vivo);
+    /* color: var(--verde-vivo); */
+}
+
+.container .card .container-info .lista .lista-azul {
+    background-color: var(--violeta-azul);
+    /* color: var(--violeta-azul); */
+}
+
+.container .card .container-info .btn {
+    border: none;
+    background-color: none;
+    background-color: #000;
+    font-size: 12px;
+    color: #ffff; 
+    padding: 10px;
+    width: 220px;
+    border-radius: 25px;    
+}
+
+.container .card .container-info .btn:hover {
+    color: #ffff;
+    background-image: linear-gradient(hsl(252, 100%, 67%), 40%, hsl(241, 81%, 54%) 90%);
 }
 
 
