@@ -1,5 +1,6 @@
 body {
     font-weight: 500;
+    font-family: 'Hanken Grotesk', sans-serif;
     background-color: var(--branco);
     height: 100vh;
 }
@@ -47,7 +48,7 @@ body {
 
 .container .card .container-principal .conteudo-central .logo-central {
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 800;
     color:var(--paleo-azul);
 }
 
@@ -59,7 +60,8 @@ body {
 .container .card .container-principal  .conteudo-texto {
     color: var(--paleo-azul);
     font-size: 20px;
-    padding: 5px;
+    margin-top: 10px;
+    padding: 4px;
 }
 
 
@@ -75,51 +77,58 @@ body {
 .container .card .container-info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-width: 300px;
+    width: 100%;
+    padding: 30px;
     background-color: var(--paleo-branco);
     border-radius: 25px;
     box-shadow: 0.4em  0.4em 1em  -0.2em hsl(241, 100%, 89%);
     height: 400px;
-    width: 350px;
 }
 
 .container .card .container-info .texto-secundario {
-    font-size: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin: 0px 20px 0px;
     color: var(--escuro-cinza-azul);
-    padding: 15px;
-    margin: 8px;
 }
 
-.container .card .container-info .lista {
-    padding: 10px;
-    opacity: calc(0.5);
-    width: 250px;
-    margin: 10px;
+.container .card .container-info .lista li div {
     display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 15px;
+}
+
+.container .card .container-info .lista li {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    flex-direction: column;
+    padding: 10px;
+    margin: 15px 0px 0px 15px;
+    border-radius: 10px;
 }
 
 
 .container .card .container-info .lista .lista-vermelho {
-    background-color: var(--luz-red);
-    /* color: var(--luz-red); */
+    background-color: var(--Light-red-bg);
+    color: var(--luz-red);
+  
 }
 
 .container .card .container-info .lista .lista-amarelo {
-    background-color: var(--laranja-amarelo);
-    /* color: var(--laranja-amarelo); */
+    background-color: var(--Orangey-yellow-bg);
+    color: var(--laranja-amarelo);
 }
 
 .container .card .container-info .lista .lista-verde {
-    background-color: var(--verde-vivo);
-    /* color: var(--verde-vivo); */
+    background-color: var(--Green-teal-bg);
+    color: var(--verde-vivo);
 }
 
 .container .card .container-info .lista .lista-azul {
-    background-color: var(--violeta-azul);
-    /* color: var(--violeta-azul); */
+    background-color: var(--Cobalt-blue-bg);
+    color: var(--violeta-azul);
 }
 
 .container .card .container-info .btn {
@@ -127,13 +136,16 @@ body {
     background-color: none;
     background-color: #000;
     font-size: 12px;
-    color: #ffff; 
+    color: #ffff;
     padding: 10px;
-    width: 220px;
-    border-radius: 25px;    
+    width: 200px;
+    border-radius: 25px;
+    transition: 0.2s ease-in-out;  
+    margin: auto 0px 10px 30px;
 }
 
 .container .card .container-info .btn:hover {
+    transform: scale(1.1);
     color: #ffff;
     background-image: linear-gradient(hsl(252, 100%, 67%), 40%, hsl(241, 81%, 54%) 90%);
 }
@@ -141,12 +153,6 @@ body {
 
 
 
-
-
-
-
-
- 
  .attribution {
     font-size: 11px;
     text-align: center;
