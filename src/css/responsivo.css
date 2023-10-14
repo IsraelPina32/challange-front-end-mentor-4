@@ -3,11 +3,10 @@
         flex-direction: column;
     }
     .container .card .container-principal {
-        left: 0px;
-        max-width: 600px;
-        width: 100%;
+        left: 2px;
+        bottom: 10px;
+        width: 440px;
         height: 450px;
-        border-radius: 0px;
     }
 
     .container .card .container-info {
@@ -30,7 +29,6 @@
 @media(max-width: 375px){
     .container .card .container-principal {
         left: auto;
-        border-radius: 0px;
         max-width: 420px;
         width: 100%;
         height: 500px;
@@ -54,7 +52,6 @@
 @media(max-width: 320px){
     .container .card .container-principal {
         left: 1px;
-        border-radius: 0px;
         max-width: 400px;
         width: 100%;
         height: 500px;
